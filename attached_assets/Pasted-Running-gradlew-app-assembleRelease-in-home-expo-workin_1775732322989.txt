@@ -1,0 +1,49 @@
+Running 'gradlew :app:assembleRelease' in /home/expo/workingdir/build/artifacts/cineverse/android
+Downloading https://services.gradle.org/distributions/gradle-8.14.3-bin.zip
+10%.
+20%.
+30%.
+40%.
+50%.
+60%.
+70
+%.
+80%.
+90%
+100%
+Welcome to Gradle 8.14.3!
+Here are the highlights of this release:
+ - Java 24 support
+- GraalVM Native Image toolchain selection
+ - Enhancements to test reporting
+- Build Authoring improvements
+For more details see https://docs.gradle.org/8.14.3/release-notes.html
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+FAILURE:
+Build failed with an exception.
+* Where:
+Settings file '/home/expo/workingdir/build/artifacts/cineverse/android/settings.gradle' line: 21
+* What went wrong:
+Error resolving plugin [id: 'com.facebook.react.settings']
+> A problem occurred configuring project ':gradle-plugin'.
+   > Could not resolve all artifacts for configuration 'classpath'.
+      > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin-model:2.1.20.
+Required by:
+            project :gradle-plugin > org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin:2.1.20 > org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.20
+            project :gradle-plugin > org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin:2.1.20 > org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.20 > org.jetbrains.kotlin:kotlin-gradle-plugins-bom:2.1.20
+         > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin-model:2.1.20.
+            > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.1.20/kotlin-gradle-plugin-model-2.1.20.module'.
+               >
+Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.1.20/kotlin-gradle-plugin-model-2.1.20.module'. Received status code 429 from server: Too Many Requests
+         > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin-model:2.1.20.
+            > Could not get resource 'https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.1.20/kotlin-gradle-plugin-model-2.1.20.pom'.
+               > Could not HEAD 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.1.20/kotlin-gradle-plugin-model-2.1.20.pom'. Received status code 429 from server: Too Many Requests
+* Try:
+> Run with --stacktrace
+option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+BUILD FAILED in 35s
+Error: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.

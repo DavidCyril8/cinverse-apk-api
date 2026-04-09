@@ -1,0 +1,14 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "6Y3mlLF5DaZ1thJHW6uBG"
+uri = "file://artifacts/cineverse/assets/images/icon.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "1VLEF9SvV_MHYDP7JLLew"
+uri = "file://artifacts/cineverse/assets/images/splash.png"
+type = "image"
+title = "generated_image"

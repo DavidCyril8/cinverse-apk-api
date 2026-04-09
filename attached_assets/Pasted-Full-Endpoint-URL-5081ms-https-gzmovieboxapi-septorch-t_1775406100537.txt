@@ -1,0 +1,314 @@
+Full Endpoint URL
+5081ms
+https://gzmovieboxapi.septorch.tech/api/media?apikey=Godszeal&detailPath=inception-e1BOR6f19C7&subjectId=6391474290696802080
+success
+JSON
+cURL
+Python
+JavaScript
+{
+  "status": "success",
+  "statusCode": 200,
+  "creator": "God's Zeal",
+  "endpoint": "/api/media",
+  "subjectId": "6391474290696802080",
+  "detailPath": "inception-e1BOR6f19C7",
+  "season": 0,
+  "episode": 0,
+  "data": {
+    "downloads": {
+      "code": 0,
+      "message": "ok",
+      "data": {
+        "downloads": [
+          {
+            "id": "6886789576263172312",
+            "url": "https://bcdnxw.hakunaymatata.com/bt/63ee0f898b116dda97c96443b1fc839d.mp4?sign=5184543a5b72477117037c6ed182151d&t=1775405361",
+            "resolution": 360,
+            "size": "777303372",
+            "streamUrl": "https://gzmovieboxapi.septorch.tech/api/proxy?url=https%3A%2F%2Fbcdnxw.hakunaymatata.com%2Fbt%2F63ee0f898b116dda97c96443b1fc839d.mp4%3Fsign%3D5184543a5b72477117037c6ed182151d%26t%3D1775405361&apikey=Godszeal",
+            "downloadUrl": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fbcdnxw.hakunaymatata.com%2Fbt%2F63ee0f898b116dda97c96443b1fc839d.mp4%3Fsign%3D5184543a5b72477117037c6ed182151d%26t%3D1775405361&name=Movie&quality=360p&apikey=Godszeal"
+          },
+          {
+            "id": "4739408676765713496",
+            "url": "https://bcdnxw.hakunaymatata.com/resource/a58dd00af907b9b8cc3b5c04b1a422c9.mp4?sign=ad09bd800fdfe84c041a51d9b589d8b2&t=1775402438",
+            "resolution": 480,
+            "size": "888312785",
+            "streamUrl": "https://gzmovieboxapi.septorch.tech/api/proxy?url=https%3A%2F%2Fbcdnxw.hakunaymatata.com%2Fresource%2Fa58dd00af907b9b8cc3b5c04b1a422c9.mp4%3Fsign%3Dad09bd800fdfe84c041a51d9b589d8b2%26t%3D1775402438&apikey=Godszeal",
+            "downloadUrl": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fbcdnxw.hakunaymatata.com%2Fresource%2Fa58dd00af907b9b8cc3b5c04b1a422c9.mp4%3Fsign%3Dad09bd800fdfe84c041a51d9b589d8b2%26t%3D1775402438&name=Movie&quality=480p&apikey=Godszeal"
+          },
+          {
+            "id": "1509494314127295680",
+            "url": "https://bcdnxw.hakunaymatata.com/tran-audio/20250609/1342d59d48fb22675d2b3dd4ed2ce8a5.mp4?sign=d56d0ce7f9333c713c6725c5f758fbc1&t=1775405692",
+            "resolution": 1080,
+            "size": "2414667149",
+            "streamUrl": "https://gzmovieboxapi.septorch.tech/api/proxy?url=https%3A%2F%2Fbcdnxw.hakunaymatata.com%2Ftran-audio%2F20250609%2F1342d59d48fb22675d2b3dd4ed2ce8a5.mp4%3Fsign%3Dd56d0ce7f9333c713c6725c5f758fbc1%26t%3D1775405692&apikey=Godszeal",
+            "downloadUrl": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fbcdnxw.hakunaymatata.com%2Ftran-audio%2F20250609%2F1342d59d48fb22675d2b3dd4ed2ce8a5.mp4%3Fsign%3Dd56d0ce7f9333c713c6725c5f758fbc1%26t%3D1775405692&name=Movie&quality=1080p&apikey=Godszeal"
+          }
+        ],
+        "captions": [
+          {
+            "id": "5968867068744189216",
+            "lan": "ar",
+            "lanName": "اَلْعَرَبِيَّةُ",
+            "url": "https://cacdn.hakunaymatata.com/subtitle/af1775234f25250b4a7eaf28117d0720.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=etVpTKnUa0xI8zIT8rOOyG4rv1pu3n24Z~uLVKOHCaNxv-BmFc0X~qUvin~AR9YealUELC8sza0jQsLmfwVv0yHagrqDjT-Ee2fr4Tci1I64B9EHVWCzQN3MYlQaL7m0eiC67nsEVEy2C2hG3bpRD24AygoErN2G3dIHygIA3oRwUIESEJjW6Tq4RWCkLXzgvNbnZlF9H3D8S1KJMSjKxjdCUQ4BmBSZx~YQIq3drj6xaWGHd2qGVmguFAfLYlSbvSx~4KuuGoHfaIjXzdlJkV7oVsqvjgodzs-jvYvB0pvrHPEnpWWzAKG-YN4RVaPSYppHAw5Yhp91tTcVO1uMVg__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "111974",
+            "delay": 0
+          },
+          {
+            "id": "7760407165030334888",
+            "lan": "bn",
+            "lanName": "বাংলা",
+            "url": "https://cacdn.hakunaymatata.com/msubt/524e045f02873f12c4ee96a9f5c30d91.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=8AEaK~xWHCOig4dQoEJsoOaECAQV8TcL4whAQVs281uupDkxSjKpPpWVd9ohlSK4fmaUcgXOlb-gHhvR1ip2HW8ifTWSW-RgfTqzpid7cdff9xHsmhyX69VrCG8mPpBF5cGuycW8sFYZc1g4DwG2o5WXDIjwwqJuNKG94JeRCUOfEWJlQANIOptt0GTr81-oYM9IA2z2Ng~wjjmqklh5VothRuAsqe0exjjYhVvp96QC9vcSy174PsghHkHaLmG8SeX3m~~uEMQkqNlsnCXQCDCbdsY77SWY8eKX96QZEAqSPfpvrO9mHtPG1jLL2jLQZ1DrOzUeCTFcKp-UOp7C3Q__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "168960",
+            "delay": 0
+          },
+          {
+            "id": "6705842713067405560",
+            "lan": "en",
+            "lanName": "English",
+            "url": "https://cacdn.hakunaymatata.com/subtitle/2766e691674fb9261cbc1d689d0262d5.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=etVpTKnUa0xI8zIT8rOOyG4rv1pu3n24Z~uLVKOHCaNxv-BmFc0X~qUvin~AR9YealUELC8sza0jQsLmfwVv0yHagrqDjT-Ee2fr4Tci1I64B9EHVWCzQN3MYlQaL7m0eiC67nsEVEy2C2hG3bpRD24AygoErN2G3dIHygIA3oRwUIESEJjW6Tq4RWCkLXzgvNbnZlF9H3D8S1KJMSjKxjdCUQ4BmBSZx~YQIq3drj6xaWGHd2qGVmguFAfLYlSbvSx~4KuuGoHfaIjXzdlJkV7oVsqvjgodzs-jvYvB0pvrHPEnpWWzAKG-YN4RVaPSYppHAw5Yhp91tTcVO1uMVg__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "3765",
+            "delay": 0
+          },
+          {
+            "id": "1193864784668672992",
+            "lan": "fil",
+            "lanName": "Filipino",
+            "url": "https://cacdn.hakunaymatata.com/msubt/015672af4748716af96b05252c02852c.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=8AEaK~xWHCOig4dQoEJsoOaECAQV8TcL4whAQVs281uupDkxSjKpPpWVd9ohlSK4fmaUcgXOlb-gHhvR1ip2HW8ifTWSW-RgfTqzpid7cdff9xHsmhyX69VrCG8mPpBF5cGuycW8sFYZc1g4DwG2o5WXDIjwwqJuNKG94JeRCUOfEWJlQANIOptt0GTr81-oYM9IA2z2Ng~wjjmqklh5VothRuAsqe0exjjYhVvp96QC9vcSy174PsghHkHaLmG8SeX3m~~uEMQkqNlsnCXQCDCbdsY77SWY8eKX96QZEAqSPfpvrO9mHtPG1jLL2jLQZ1DrOzUeCTFcKp-UOp7C3Q__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "159822",
+            "delay": 0
+          },
+          {
+            "id": "3916452082143971712",
+            "lan": "fr",
+            "lanName": "Français",
+            "url": "https://cacdn.hakunaymatata.com/subtitle/f45bef6271e52a7ffd036fe454fd1a2a.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=etVpTKnUa0xI8zIT8rOOyG4rv1pu3n24Z~uLVKOHCaNxv-BmFc0X~qUvin~AR9YealUELC8sza0jQsLmfwVv0yHagrqDjT-Ee2fr4Tci1I64B9EHVWCzQN3MYlQaL7m0eiC67nsEVEy2C2hG3bpRD24AygoErN2G3dIHygIA3oRwUIESEJjW6Tq4RWCkLXzgvNbnZlF9H3D8S1KJMSjKxjdCUQ4BmBSZx~YQIq3drj6xaWGHd2qGVmguFAfLYlSbvSx~4KuuGoHfaIjXzdlJkV7oVsqvjgodzs-jvYvB0pvrHPEnpWWzAKG-YN4RVaPSYppHAw5Yhp91tTcVO1uMVg__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "3765",
+            "delay": 0
+          },
+          {
+            "id": "8683158920891877008",
+            "lan": "ha",
+            "lanName": "هَرْشٜن هَوْس",
+            "url": "https://cacdn.hakunaymatata.com/subtitle/f6d77d513b468f7a760bb087e322abe3.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=etVpTKnUa0xI8zIT8rOOyG4rv1pu3n24Z~uLVKOHCaNxv-BmFc0X~qUvin~AR9YealUELC8sza0jQsLmfwVv0yHagrqDjT-Ee2fr4Tci1I64B9EHVWCzQN3MYlQaL7m0eiC67nsEVEy2C2hG3bpRD24AygoErN2G3dIHygIA3oRwUIESEJjW6Tq4RWCkLXzgvNbnZlF9H3D8S1KJMSjKxjdCUQ4BmBSZx~YQIq3drj6xaWGHd2qGVmguFAfLYlSbvSx~4KuuGoHfaIjXzdlJkV7oVsqvjgodzs-jvYvB0pvrHPEnpWWzAKG-YN4RVaPSYppHAw5Yhp91tTcVO1uMVg__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "99969",
+            "delay": 0
+          },
+          {
+            "id": "712456800775340088",
+            "lan": "in_id",
+            "lanName": "Indonesian",
+            "url": "https://cacdn.hakunaymatata.com/subtitle/ebdef2cb86958b4845cbc6205bfef814.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=etVpTKnUa0xI8zIT8rOOyG4rv1pu3n24Z~uLVKOHCaNxv-BmFc0X~qUvin~AR9YealUELC8sza0jQsLmfwVv0yHagrqDjT-Ee2fr4Tci1I64B9EHVWCzQN3MYlQaL7m0eiC67nsEVEy2C2hG3bpRD24AygoErN2G3dIHygIA3oRwUIESEJjW6Tq4RWCkLXzgvNbnZlF9H3D8S1KJMSjKxjdCUQ4BmBSZx~YQIq3drj6xaWGHd2qGVmguFAfLYlSbvSx~4KuuGoHfaIjXzdlJkV7oVsqvjgodzs-jvYvB0pvrHPEnpWWzAKG-YN4RVaPSYppHAw5Yhp91tTcVO1uMVg__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "119545",
+            "delay": 0
+          },
+          {
+            "id": "393796508853883640",
+            "lan": "ms",
+            "lanName": "Malay",
+            "url": "https://cacdn.hakunaymatata.com/msubt/3876d2712eecda0204e3b2b29eb0276e.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=8AEaK~xWHCOig4dQoEJsoOaECAQV8TcL4whAQVs281uupDkxSjKpPpWVd9ohlSK4fmaUcgXOlb-gHhvR1ip2HW8ifTWSW-RgfTqzpid7cdff9xHsmhyX69VrCG8mPpBF5cGuycW8sFYZc1g4DwG2o5WXDIjwwqJuNKG94JeRCUOfEWJlQANIOptt0GTr81-oYM9IA2z2Ng~wjjmqklh5VothRuAsqe0exjjYhVvp96QC9vcSy174PsghHkHaLmG8SeX3m~~uEMQkqNlsnCXQCDCbdsY77SWY8eKX96QZEAqSPfpvrO9mHtPG1jLL2jLQZ1DrOzUeCTFcKp-UOp7C3Q__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "141779",
+            "delay": 0
+          },
+          {
+            "id": "6553945388385534248",
+            "lan": "pa",
+            "lanName": "ਪੰਜਾਬੀ",
+            "url": "https://cacdn.hakunaymatata.com/msubt/9958133de003c79708e885cc7d05ff2b.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=8AEaK~xWHCOig4dQoEJsoOaECAQV8TcL4whAQVs281uupDkxSjKpPpWVd9ohlSK4fmaUcgXOlb-gHhvR1ip2HW8ifTWSW-RgfTqzpid7cdff9xHsmhyX69VrCG8mPpBF5cGuycW8sFYZc1g4DwG2o5WXDIjwwqJuNKG94JeRCUOfEWJlQANIOptt0GTr81-oYM9IA2z2Ng~wjjmqklh5VothRuAsqe0exjjYhVvp96QC9vcSy174PsghHkHaLmG8SeX3m~~uEMQkqNlsnCXQCDCbdsY77SWY8eKX96QZEAqSPfpvrO9mHtPG1jLL2jLQZ1DrOzUeCTFcKp-UOp7C3Q__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "154166",
+            "delay": 0
+          },
+          {
+            "id": "431708798819127864",
+            "lan": "pt",
+            "lanName": "Português",
+            "url": "https://cacdn.hakunaymatata.com/subtitle/42415fd8b5e862e9de46592b339e05bd.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=etVpTKnUa0xI8zIT8rOOyG4rv1pu3n24Z~uLVKOHCaNxv-BmFc0X~qUvin~AR9YealUELC8sza0jQsLmfwVv0yHagrqDjT-Ee2fr4Tci1I64B9EHVWCzQN3MYlQaL7m0eiC67nsEVEy2C2hG3bpRD24AygoErN2G3dIHygIA3oRwUIESEJjW6Tq4RWCkLXzgvNbnZlF9H3D8S1KJMSjKxjdCUQ4BmBSZx~YQIq3drj6xaWGHd2qGVmguFAfLYlSbvSx~4KuuGoHfaIjXzdlJkV7oVsqvjgodzs-jvYvB0pvrHPEnpWWzAKG-YN4RVaPSYppHAw5Yhp91tTcVO1uMVg__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "66610",
+            "delay": 0
+          },
+          {
+            "id": "6705647206692963280",
+            "lan": "ru",
+            "lanName": "Русский",
+            "url": "https://cacdn.hakunaymatata.com/msubt/06ee710c231bcdd57662c59bffeb39b1.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=8AEaK~xWHCOig4dQoEJsoOaECAQV8TcL4whAQVs281uupDkxSjKpPpWVd9ohlSK4fmaUcgXOlb-gHhvR1ip2HW8ifTWSW-RgfTqzpid7cdff9xHsmhyX69VrCG8mPpBF5cGuycW8sFYZc1g4DwG2o5WXDIjwwqJuNKG94JeRCUOfEWJlQANIOptt0GTr81-oYM9IA2z2Ng~wjjmqklh5VothRuAsqe0exjjYhVvp96QC9vcSy174PsghHkHaLmG8SeX3m~~uEMQkqNlsnCXQCDCbdsY77SWY8eKX96QZEAqSPfpvrO9mHtPG1jLL2jLQZ1DrOzUeCTFcKp-UOp7C3Q__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "155623",
+            "delay": 0
+          },
+          {
+            "id": "5116448753502799504",
+            "lan": "sw",
+            "lanName": "Kiswahili",
+            "url": "https://cacdn.hakunaymatata.com/subtitle/26132ffba57b18b9637685b372d95240.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=etVpTKnUa0xI8zIT8rOOyG4rv1pu3n24Z~uLVKOHCaNxv-BmFc0X~qUvin~AR9YealUELC8sza0jQsLmfwVv0yHagrqDjT-Ee2fr4Tci1I64B9EHVWCzQN3MYlQaL7m0eiC67nsEVEy2C2hG3bpRD24AygoErN2G3dIHygIA3oRwUIESEJjW6Tq4RWCkLXzgvNbnZlF9H3D8S1KJMSjKxjdCUQ4BmBSZx~YQIq3drj6xaWGHd2qGVmguFAfLYlSbvSx~4KuuGoHfaIjXzdlJkV7oVsqvjgodzs-jvYvB0pvrHPEnpWWzAKG-YN4RVaPSYppHAw5Yhp91tTcVO1uMVg__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "109824",
+            "delay": 0
+          },
+          {
+            "id": "786697663055103192",
+            "lan": "ur",
+            "lanName": "اُردُو",
+            "url": "https://cacdn.hakunaymatata.com/msubt/619c42a7609a6daa3b2880ee5a1e259f.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=8AEaK~xWHCOig4dQoEJsoOaECAQV8TcL4whAQVs281uupDkxSjKpPpWVd9ohlSK4fmaUcgXOlb-gHhvR1ip2HW8ifTWSW-RgfTqzpid7cdff9xHsmhyX69VrCG8mPpBF5cGuycW8sFYZc1g4DwG2o5WXDIjwwqJuNKG94JeRCUOfEWJlQANIOptt0GTr81-oYM9IA2z2Ng~wjjmqklh5VothRuAsqe0exjjYhVvp96QC9vcSy174PsghHkHaLmG8SeX3m~~uEMQkqNlsnCXQCDCbdsY77SWY8eKX96QZEAqSPfpvrO9mHtPG1jLL2jLQZ1DrOzUeCTFcKp-UOp7C3Q__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "155623",
+            "delay": 0
+          },
+          {
+            "id": "9042752037313807504",
+            "lan": "zh",
+            "lanName": "中文",
+            "url": "https://cacdn.hakunaymatata.com/msubt/853422a92aa87ebb8de826cb470d6f39.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA5NjU4fX19XX0_&Signature=8AEaK~xWHCOig4dQoEJsoOaECAQV8TcL4whAQVs281uupDkxSjKpPpWVd9ohlSK4fmaUcgXOlb-gHhvR1ip2HW8ifTWSW-RgfTqzpid7cdff9xHsmhyX69VrCG8mPpBF5cGuycW8sFYZc1g4DwG2o5WXDIjwwqJuNKG94JeRCUOfEWJlQANIOptt0GTr81-oYM9IA2z2Ng~wjjmqklh5VothRuAsqe0exjjYhVvp96QC9vcSy174PsghHkHaLmG8SeX3m~~uEMQkqNlsnCXQCDCbdsY77SWY8eKX96QZEAqSPfpvrO9mHtPG1jLL2jLQZ1DrOzUeCTFcKp-UOp7C3Q__&Key-Pair-Id=KMHN1LQ1HEUPL",
+            "size": "121438",
+            "delay": 0
+          }
+        ],
+        "limited": false,
+        "limitedCode": "",
+        "freeNum": 6,
+        "hasResource": true
+      }
+    },
+    "subtitles": {
+      "code": 0,
+      "message": "ok",
+      "data": {
+        "downloads": [
+          {
+            "id": "6886789576263172312",
+            "url": "https://bcdnxw.hakunaymatata.com/bt/63ee0f898b116dda97c96443b1fc839d.mp4?sign=5184543a5b72477117037c6ed182151d&t=1775405361",
+            "resolution": 360,
+            "size": "777303372"
+          },
+          {
+            "id": "4739408676765713496",
+            "url": "https://bcdnxw.hakunaymatata.com/resource/a58dd00af907b9b8cc3b5c04b1a422c9.mp4?sign=ad09bd800fdfe84c041a51d9b589d8b2&t=1775402438",
+            "resolution": 480,
+            "size": "888312785"
+          },
+          {
+            "id": "1509494314127295680",
+            "url": "https://bcdnxw.hakunaymatata.com/tran-audio/20250609/1342d59d48fb22675d2b3dd4ed2ce8a5.mp4?sign=d56d0ce7f9333c713c6725c5f758fbc1&t=1775405692",
+            "resolution": 1080,
+            "size": "2414667149"
+          }
+        ],
+        "captions": [
+          {
+            "id": "5968867068744189216",
+            "lan": "ar",
+            "lanName": "اَلْعَرَبِيَّةُ",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fsubtitle%2Faf1775234f25250b4a7eaf28117d0720.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DGlxx0a7HjxlQbjZKWHlcSVfj4el9ihYZYbHL3Vw5iECrMwpEBimCw7Ix8ag0ImkkShPLeUnElulVYQ0TA8grqUS0C16dFcV1oI25%7Ex94bZ%7EbPSqzXXWp-DL1AKlAR8jQO6mZpHZfDkOPgwC4qLRlokjiQ8j0habXhhf0u1p%7EnaPmxpXoFD5TOGUgJXkgY6Mdeq-M%7E2T8qiKbbwQms17lAkKhQmCh2bQatkcQdCqavgRa03j9huBbUt37EOidOkPqbfisvhQpYJOvd4y1qrZYanUxC%7E14u62s64wlG4k3XkPAqPoJ7%7EA0FTd3DRJFzqPbn6XdCSg7OxsiiYmYtWmtOA__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "111974",
+            "delay": 0
+          },
+          {
+            "id": "7760407165030334888",
+            "lan": "bn",
+            "lanName": "বাংলা",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fmsubt%2F524e045f02873f12c4ee96a9f5c30d91.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DYcgn%7EWRB51hdtKD-E5Qg-MJmMjR3DHwZj9RH8N3RafcFG9Og12Ga0wykCiwUYrgNhKumZlVqF0ehdIj2Y8pTYmdf4ULAfJm5KeeQvGh1UG3KEvQcE18hpFnbIfYRYvPi174gzenwYru6wmN3C80tKQHF2O1y2dA3Cj9ul4jy%7Ew7SoSdd2-KsIWwi-AQQnUAiDMWX942NgXApirKvuLDWag0FyfXh8jtnwntCn%7E0IkWSKOT8boN6H9IchoWsVIbGc89o1Unt1jehopkRjrGELVYGquNXbBO21me3RyTk0sYIyTCLHg6rxLQRyrPGV9U8tU-qxGWozI3lfu8Lg1E-XEw__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "168960",
+            "delay": 0
+          },
+          {
+            "id": "6705842713067405560",
+            "lan": "en",
+            "lanName": "English",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fsubtitle%2F2766e691674fb9261cbc1d689d0262d5.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DGlxx0a7HjxlQbjZKWHlcSVfj4el9ihYZYbHL3Vw5iECrMwpEBimCw7Ix8ag0ImkkShPLeUnElulVYQ0TA8grqUS0C16dFcV1oI25%7Ex94bZ%7EbPSqzXXWp-DL1AKlAR8jQO6mZpHZfDkOPgwC4qLRlokjiQ8j0habXhhf0u1p%7EnaPmxpXoFD5TOGUgJXkgY6Mdeq-M%7E2T8qiKbbwQms17lAkKhQmCh2bQatkcQdCqavgRa03j9huBbUt37EOidOkPqbfisvhQpYJOvd4y1qrZYanUxC%7E14u62s64wlG4k3XkPAqPoJ7%7EA0FTd3DRJFzqPbn6XdCSg7OxsiiYmYtWmtOA__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "3765",
+            "delay": 0
+          },
+          {
+            "id": "1193864784668672992",
+            "lan": "fil",
+            "lanName": "Filipino",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fmsubt%2F015672af4748716af96b05252c02852c.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DYcgn%7EWRB51hdtKD-E5Qg-MJmMjR3DHwZj9RH8N3RafcFG9Og12Ga0wykCiwUYrgNhKumZlVqF0ehdIj2Y8pTYmdf4ULAfJm5KeeQvGh1UG3KEvQcE18hpFnbIfYRYvPi174gzenwYru6wmN3C80tKQHF2O1y2dA3Cj9ul4jy%7Ew7SoSdd2-KsIWwi-AQQnUAiDMWX942NgXApirKvuLDWag0FyfXh8jtnwntCn%7E0IkWSKOT8boN6H9IchoWsVIbGc89o1Unt1jehopkRjrGELVYGquNXbBO21me3RyTk0sYIyTCLHg6rxLQRyrPGV9U8tU-qxGWozI3lfu8Lg1E-XEw__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "159822",
+            "delay": 0
+          },
+          {
+            "id": "3916452082143971712",
+            "lan": "fr",
+            "lanName": "Français",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fsubtitle%2Ff45bef6271e52a7ffd036fe454fd1a2a.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DGlxx0a7HjxlQbjZKWHlcSVfj4el9ihYZYbHL3Vw5iECrMwpEBimCw7Ix8ag0ImkkShPLeUnElulVYQ0TA8grqUS0C16dFcV1oI25%7Ex94bZ%7EbPSqzXXWp-DL1AKlAR8jQO6mZpHZfDkOPgwC4qLRlokjiQ8j0habXhhf0u1p%7EnaPmxpXoFD5TOGUgJXkgY6Mdeq-M%7E2T8qiKbbwQms17lAkKhQmCh2bQatkcQdCqavgRa03j9huBbUt37EOidOkPqbfisvhQpYJOvd4y1qrZYanUxC%7E14u62s64wlG4k3XkPAqPoJ7%7EA0FTd3DRJFzqPbn6XdCSg7OxsiiYmYtWmtOA__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "3765",
+            "delay": 0
+          },
+          {
+            "id": "8683158920891877008",
+            "lan": "ha",
+            "lanName": "هَرْشٜن هَوْس",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fsubtitle%2Ff6d77d513b468f7a760bb087e322abe3.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DGlxx0a7HjxlQbjZKWHlcSVfj4el9ihYZYbHL3Vw5iECrMwpEBimCw7Ix8ag0ImkkShPLeUnElulVYQ0TA8grqUS0C16dFcV1oI25%7Ex94bZ%7EbPSqzXXWp-DL1AKlAR8jQO6mZpHZfDkOPgwC4qLRlokjiQ8j0habXhhf0u1p%7EnaPmxpXoFD5TOGUgJXkgY6Mdeq-M%7E2T8qiKbbwQms17lAkKhQmCh2bQatkcQdCqavgRa03j9huBbUt37EOidOkPqbfisvhQpYJOvd4y1qrZYanUxC%7E14u62s64wlG4k3XkPAqPoJ7%7EA0FTd3DRJFzqPbn6XdCSg7OxsiiYmYtWmtOA__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "99969",
+            "delay": 0
+          },
+          {
+            "id": "712456800775340088",
+            "lan": "in_id",
+            "lanName": "Indonesian",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fsubtitle%2Febdef2cb86958b4845cbc6205bfef814.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DGlxx0a7HjxlQbjZKWHlcSVfj4el9ihYZYbHL3Vw5iECrMwpEBimCw7Ix8ag0ImkkShPLeUnElulVYQ0TA8grqUS0C16dFcV1oI25%7Ex94bZ%7EbPSqzXXWp-DL1AKlAR8jQO6mZpHZfDkOPgwC4qLRlokjiQ8j0habXhhf0u1p%7EnaPmxpXoFD5TOGUgJXkgY6Mdeq-M%7E2T8qiKbbwQms17lAkKhQmCh2bQatkcQdCqavgRa03j9huBbUt37EOidOkPqbfisvhQpYJOvd4y1qrZYanUxC%7E14u62s64wlG4k3XkPAqPoJ7%7EA0FTd3DRJFzqPbn6XdCSg7OxsiiYmYtWmtOA__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "119545",
+            "delay": 0
+          },
+          {
+            "id": "393796508853883640",
+            "lan": "ms",
+            "lanName": "Malay",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fmsubt%2F3876d2712eecda0204e3b2b29eb0276e.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DYcgn%7EWRB51hdtKD-E5Qg-MJmMjR3DHwZj9RH8N3RafcFG9Og12Ga0wykCiwUYrgNhKumZlVqF0ehdIj2Y8pTYmdf4ULAfJm5KeeQvGh1UG3KEvQcE18hpFnbIfYRYvPi174gzenwYru6wmN3C80tKQHF2O1y2dA3Cj9ul4jy%7Ew7SoSdd2-KsIWwi-AQQnUAiDMWX942NgXApirKvuLDWag0FyfXh8jtnwntCn%7E0IkWSKOT8boN6H9IchoWsVIbGc89o1Unt1jehopkRjrGELVYGquNXbBO21me3RyTk0sYIyTCLHg6rxLQRyrPGV9U8tU-qxGWozI3lfu8Lg1E-XEw__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "141779",
+            "delay": 0
+          },
+          {
+            "id": "6553945388385534248",
+            "lan": "pa",
+            "lanName": "ਪੰਜਾਬੀ",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fmsubt%2F9958133de003c79708e885cc7d05ff2b.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DYcgn%7EWRB51hdtKD-E5Qg-MJmMjR3DHwZj9RH8N3RafcFG9Og12Ga0wykCiwUYrgNhKumZlVqF0ehdIj2Y8pTYmdf4ULAfJm5KeeQvGh1UG3KEvQcE18hpFnbIfYRYvPi174gzenwYru6wmN3C80tKQHF2O1y2dA3Cj9ul4jy%7Ew7SoSdd2-KsIWwi-AQQnUAiDMWX942NgXApirKvuLDWag0FyfXh8jtnwntCn%7E0IkWSKOT8boN6H9IchoWsVIbGc89o1Unt1jehopkRjrGELVYGquNXbBO21me3RyTk0sYIyTCLHg6rxLQRyrPGV9U8tU-qxGWozI3lfu8Lg1E-XEw__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "154166",
+            "delay": 0
+          },
+          {
+            "id": "431708798819127864",
+            "lan": "pt",
+            "lanName": "Português",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fsubtitle%2F42415fd8b5e862e9de46592b339e05bd.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DGlxx0a7HjxlQbjZKWHlcSVfj4el9ihYZYbHL3Vw5iECrMwpEBimCw7Ix8ag0ImkkShPLeUnElulVYQ0TA8grqUS0C16dFcV1oI25%7Ex94bZ%7EbPSqzXXWp-DL1AKlAR8jQO6mZpHZfDkOPgwC4qLRlokjiQ8j0habXhhf0u1p%7EnaPmxpXoFD5TOGUgJXkgY6Mdeq-M%7E2T8qiKbbwQms17lAkKhQmCh2bQatkcQdCqavgRa03j9huBbUt37EOidOkPqbfisvhQpYJOvd4y1qrZYanUxC%7E14u62s64wlG4k3XkPAqPoJ7%7EA0FTd3DRJFzqPbn6XdCSg7OxsiiYmYtWmtOA__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "66610",
+            "delay": 0
+          },
+          {
+            "id": "6705647206692963280",
+            "lan": "ru",
+            "lanName": "Русский",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fmsubt%2F06ee710c231bcdd57662c59bffeb39b1.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DYcgn%7EWRB51hdtKD-E5Qg-MJmMjR3DHwZj9RH8N3RafcFG9Og12Ga0wykCiwUYrgNhKumZlVqF0ehdIj2Y8pTYmdf4ULAfJm5KeeQvGh1UG3KEvQcE18hpFnbIfYRYvPi174gzenwYru6wmN3C80tKQHF2O1y2dA3Cj9ul4jy%7Ew7SoSdd2-KsIWwi-AQQnUAiDMWX942NgXApirKvuLDWag0FyfXh8jtnwntCn%7E0IkWSKOT8boN6H9IchoWsVIbGc89o1Unt1jehopkRjrGELVYGquNXbBO21me3RyTk0sYIyTCLHg6rxLQRyrPGV9U8tU-qxGWozI3lfu8Lg1E-XEw__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "155623",
+            "delay": 0
+          },
+          {
+            "id": "5116448753502799504",
+            "lan": "sw",
+            "lanName": "Kiswahili",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fsubtitle%2F26132ffba57b18b9637685b372d95240.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DGlxx0a7HjxlQbjZKWHlcSVfj4el9ihYZYbHL3Vw5iECrMwpEBimCw7Ix8ag0ImkkShPLeUnElulVYQ0TA8grqUS0C16dFcV1oI25%7Ex94bZ%7EbPSqzXXWp-DL1AKlAR8jQO6mZpHZfDkOPgwC4qLRlokjiQ8j0habXhhf0u1p%7EnaPmxpXoFD5TOGUgJXkgY6Mdeq-M%7E2T8qiKbbwQms17lAkKhQmCh2bQatkcQdCqavgRa03j9huBbUt37EOidOkPqbfisvhQpYJOvd4y1qrZYanUxC%7E14u62s64wlG4k3XkPAqPoJ7%7EA0FTd3DRJFzqPbn6XdCSg7OxsiiYmYtWmtOA__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "109824",
+            "delay": 0
+          },
+          {
+            "id": "786697663055103192",
+            "lan": "ur",
+            "lanName": "اُردُو",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fmsubt%2F619c42a7609a6daa3b2880ee5a1e259f.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DYcgn%7EWRB51hdtKD-E5Qg-MJmMjR3DHwZj9RH8N3RafcFG9Og12Ga0wykCiwUYrgNhKumZlVqF0ehdIj2Y8pTYmdf4ULAfJm5KeeQvGh1UG3KEvQcE18hpFnbIfYRYvPi174gzenwYru6wmN3C80tKQHF2O1y2dA3Cj9ul4jy%7Ew7SoSdd2-KsIWwi-AQQnUAiDMWX942NgXApirKvuLDWag0FyfXh8jtnwntCn%7E0IkWSKOT8boN6H9IchoWsVIbGc89o1Unt1jehopkRjrGELVYGquNXbBO21me3RyTk0sYIyTCLHg6rxLQRyrPGV9U8tU-qxGWozI3lfu8Lg1E-XEw__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "155623",
+            "delay": 0
+          },
+          {
+            "id": "9042752037313807504",
+            "lan": "zh",
+            "lanName": "中文",
+            "url": "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fcacdn.hakunaymatata.com%2Fmsubt%2F853422a92aa87ebb8de826cb470d6f39.srt%3FPolicy%3DeyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc2MDA4NDU3fX19XX0_%26Signature%3DYcgn%7EWRB51hdtKD-E5Qg-MJmMjR3DHwZj9RH8N3RafcFG9Og12Ga0wykCiwUYrgNhKumZlVqF0ehdIj2Y8pTYmdf4ULAfJm5KeeQvGh1UG3KEvQcE18hpFnbIfYRYvPi174gzenwYru6wmN3C80tKQHF2O1y2dA3Cj9ul4jy%7Ew7SoSdd2-KsIWwi-AQQnUAiDMWX942NgXApirKvuLDWag0FyfXh8jtnwntCn%7E0IkWSKOT8boN6H9IchoWsVIbGc89o1Unt1jehopkRjrGELVYGquNXbBO21me3RyTk0sYIyTCLHg6rxLQRyrPGV9U8tU-qxGWozI3lfu8Lg1E-XEw__%26Key-Pair-Id%3DKMHN1LQ1HEUPL&apikey=Godszeal",
+            "size": "121438",
+            "delay": 0
+          }
+        ],
+        "limited": false,
+        "limitedCode": "",
+        "freeNum": 6,
+        "hasResource": true
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "cineverse-fs",
+  "version": "1.0.0",
+  "description": "Unrestricted native file system module for CINEVERSE — bypasses expo-file-system sandbox for public external storage",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "peerDependencies": {
+    "expo-modules-core": "*"
+  }
+}

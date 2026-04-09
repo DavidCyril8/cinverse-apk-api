@@ -1,0 +1,124 @@
+API Documentation
+Complete guide to using the GZMovie API for streaming and downloading movies and series.
+
+Try API Explorer
+Getting Started
+The GZMovie API provides a simple REST interface for searching, streaming, and downloading movies and TV series. All endpoints return JSON responses and support CORS for browser-based applications.
+
+Base URL
+https://gzmovieboxapi.septorch.tech
+API Key
+Godszeal
+Format
+JSON
+Table of Contents
+GET
+Search Movies/Series
+GET
+Get Item Details
+GET
+Get Media Links
+POST
+Stream Content
+GET
+Proxy Stream
+GET
+Download Content
+API Endpoints
+GET
+/api/search
+Copy URL
+Search for movies and TV series by title
+
+Parameters
+Name	Type	Required	Description
+query	string	Yes	Search query (movie/series title)
+subjectType	string	No	Filter by type: ALL, MOVIE, TV
+page	number	No	Page number (default: 1)
+perPage	number	No	Results per page (default: 24)
+Examples
+cURL
+Python
+JavaScript
+
+curl -X GET "https://gzmovieboxapi.septorch.tech/api/search?query=avengers&subjectType=MOVIE&page=1"
+GET
+/api/item-details
+Copy URL
+Get detailed information about a specific movie or series
+
+Parameters
+Name	Type	Required	Description
+subjectId	string	Yes	The unique subject ID
+Examples
+cURL
+Python
+JavaScript
+
+curl -X GET "https://gzmovieboxapi.septorch.tech/api/item-details?subjectId=12345"
+GET
+/api/media
+Copy URL
+Get streaming and download links with proxied URLs
+
+Parameters
+Name	Type	Required	Description
+subjectId	string	Yes	The unique subject ID
+detailPath	string	Yes	The detail path from item details
+season	number	No	Season number for TV series (default: 0)
+episode	number	No	Episode number for TV series (default: 0)
+Examples
+cURL
+Python
+JavaScript
+
+curl -X GET "https://gzmovieboxapi.septorch.tech/api/media?subjectId=12345&detailPath=/path/to/detail&season=1&episode=1"
+POST
+/api/stream
+Copy URL
+Get streaming data for playback
+
+Parameters
+Name	Type	Required	Description
+subjectId	string	Yes	The unique subject ID
+detailPath	string	Yes	The detail path
+season	number	No	Season number (default: 0)
+episode	number	No	Episode number (default: 0)
+Examples
+cURL
+Python
+JavaScript
+
+curl -X POST "https://gzmovieboxapi.septorch.tech/api/stream" \
+  -H "Content-Type: application/json" \
+  -d '{"subjectId": "12345", "detailPath": "/path/to/detail", "season": 1, "episode": 1}'
+GET
+/api/proxy
+Copy URL
+Proxy streaming content to bypass CORS restrictions
+
+Parameters
+Name	Type	Required	Description
+url	string	Yes	The encoded URL to proxy
+Examples
+cURL
+Python
+JavaScript
+
+curl -X GET "https://gzmovieboxapi.septorch.tech/api/proxy?url=https%3A%2F%2Fexample.com%2Fvideo.mp4"
+GET
+/api/proxy-download
+Copy URL
+Download media files with proper filename (name is required)
+
+Parameters
+Name	Type	Required	Description
+url	string	Yes	The encoded URL to download
+name	string	Yes	Movie/series name for filename (REQUIRED)
+quality	string	No	Quality label (e.g., 1080p, 720p)
+Examples
+cURL
+Python
+JavaScript
+
+curl -X GET "https://gzmovieboxapi.septorch.tech/api/proxy-download?url=https%3A%2F%2Fexample.com%2Fvideo.mp4&name=Ave
