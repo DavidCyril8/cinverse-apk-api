@@ -434,8 +434,20 @@ export default function ProfileScreen() {
           <View style={styles.profileCardInner}>
             <Avatar name={user.displayName || user.email} size={80} />
             <View style={styles.profileInfo}>
-              <Text style={styles.displayName} numberOfLines={1}>{user.displayName || "CINVERSE User"}</Text>
+              <View style={styles.nameRow}>
+                <Text style={styles.displayName} numberOfLines={1}>{user.displayName || "CINVERSE User"}</Text>
+                <View style={[styles.roleBadge, user.role === "vip" && styles.roleBadgeVip]}>
+                  {user.role === "vip"
+                    ? <Feather name="star" size={9} color="#000" />
+                    : <Feather name="shield" size={9} color="#000" />}
+                  <Text style={styles.roleBadgeText}>{user.role === "vip" ? "VIP" : "Member"}</Text>
+                </View>
+              </View>
               <Text style={styles.emailText} numberOfLines={1}>{user.email}</Text>
+              <View style={styles.idRow}>
+                <Feather name="hash" size={11} color="rgba(255,255,255,0.3)" />
+                <Text style={styles.cinverseId}>{user.cinverseId}</Text>
+              </View>
               <View style={styles.memberBadge}>
                 <Feather name="calendar" size={11} color="#13CFCF" />
                 <Text style={styles.memberSince}>Member since {formatDate(user.createdAt)}</Text>
@@ -597,8 +609,17 @@ const styles = StyleSheet.create({
   avatar: { backgroundColor: TEAL, alignItems: "center", justifyContent: "center" },
   avatarText: { fontFamily: "Inter_700Bold", color: "#000" },
   profileInfo: { flex: 1 },
-  displayName: { fontSize: 18, fontFamily: "Inter_700Bold", color: "#fff", marginBottom: 3 },
-  emailText: { fontSize: 13, fontFamily: "Inter_400Regular", color: "rgba(255,255,255,0.45)", marginBottom: 6 },
+  nameRow: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: 3, flexWrap: "wrap" },
+  displayName: { fontSize: 18, fontFamily: "Inter_700Bold", color: "#fff" },
+  roleBadge: {
+    flexDirection: "row", alignItems: "center", gap: 3,
+    backgroundColor: TEAL, borderRadius: 6, paddingHorizontal: 6, paddingVertical: 2,
+  },
+  roleBadgeVip: { backgroundColor: "#f59e0b" },
+  roleBadgeText: { fontSize: 9, fontFamily: "Inter_700Bold", color: "#000", letterSpacing: 0.5 },
+  emailText: { fontSize: 13, fontFamily: "Inter_400Regular", color: "rgba(255,255,255,0.45)", marginBottom: 4 },
+  idRow: { flexDirection: "row", alignItems: "center", gap: 3, marginBottom: 6 },
+  cinverseId: { fontSize: 11, fontFamily: "Inter_600SemiBold", color: "rgba(255,255,255,0.3)", letterSpacing: 0.5 },
   memberBadge: { flexDirection: "row", alignItems: "center", gap: 4 },
   memberSince: { fontSize: 11, fontFamily: "Inter_400Regular", color: "rgba(255,255,255,0.35)" },
 

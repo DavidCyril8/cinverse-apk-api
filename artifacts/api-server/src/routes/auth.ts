@@ -13,12 +13,21 @@ function signToken(userId: string): string {
   return jwt.sign({ userId } satisfies AuthPayload, secret, { expiresIn: "30d" });
 }
 
+function generateCinverseId(): string {
+  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  let id = "CVS-";
+  for (let i = 0; i < 6; i++) id += chars[Math.floor(Math.random() * chars.length)];
+  return id;
+}
+
 function userView(user: InstanceType<typeof User>) {
   return {
     id: user._id.toString(),
     email: user.email,
     displayName: user.displayName,
     avatarUrl: user.avatarUrl,
+    role: (user.role ?? "member") as "member" | "vip",
+    cinverseId: user.cinverseId ?? `CVS-${user._id.toString().slice(-6).toUpperCase()}`,
     createdAt: user.createdAt.toISOString(),
   };
 }
@@ -40,7 +49,8 @@ router.post("/register", async (req: Request, res: Response) => {
     return;
   }
   const passwordHash = await bcrypt.hash(password, 12);
-  const user = await User.create({ email, passwordHash, displayName });
+  const cinverseId = generateCinverseId();
+  const user = await User.create({ email, passwordHash, displayName, cinverseId });
   const token = signToken(user._id.toString());
   res.status(201).json({ token, user: userView(user) });
 });

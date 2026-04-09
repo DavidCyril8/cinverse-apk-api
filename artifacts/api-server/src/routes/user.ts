@@ -127,11 +127,14 @@ router.delete("/search-history", async (req: Request, res: Response) => {
 router.get("/profile", async (req: Request, res: Response) => {
   const user = await User.findById(uid(req)).lean();
   if (!user) { res.status(404).json({ error: "User not found" }); return; }
+  const id = user._id.toString();
   res.json({
-    id: user._id.toString(),
+    id,
     email: user.email,
     displayName: user.displayName,
     avatarUrl: user.avatarUrl,
+    role: user.role ?? "member",
+    cinverseId: user.cinverseId ?? `CVS-${id.slice(-6).toUpperCase()}`,
     createdAt: (user.createdAt as Date).toISOString(),
   });
 });
@@ -164,11 +167,14 @@ router.patch("/profile", async (req: Request, res: Response) => {
   if (avatarUrl !== undefined) update["avatarUrl"] = avatarUrl;
   const user = await User.findByIdAndUpdate(uid(req), { $set: update }, { new: true });
   if (!user) { res.status(404).json({ error: "User not found" }); return; }
+  const id = user._id.toString();
   res.json({
-    id: user._id.toString(),
+    id,
     email: user.email,
     displayName: user.displayName,
     avatarUrl: user.avatarUrl,
+    role: user.role ?? "member",
+    cinverseId: user.cinverseId ?? `CVS-${id.slice(-6).toUpperCase()}`,
     createdAt: user.createdAt.toISOString(),
   });
 });

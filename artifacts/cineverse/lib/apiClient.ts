@@ -53,7 +53,7 @@ export async function apiRequest<T>(path: string, opts: ReqOptions = {}): Promis
 
 // ─── User Profile ─────────────────────────────────────────────────────────────
 
-export async function updateProfile(displayName: string): Promise<{ id: string; email: string; displayName: string; avatarUrl: string; createdAt: string }> {
+export async function updateProfile(displayName: string): Promise<{ id: string; email: string; displayName: string; avatarUrl: string; role: "member" | "vip"; cinverseId: string; createdAt: string }> {
   return apiRequest("/user/profile", { method: "PATCH", body: { displayName } });
 }
 

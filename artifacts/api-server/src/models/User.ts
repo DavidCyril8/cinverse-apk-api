@@ -5,6 +5,8 @@ export interface IUser extends Document {
   passwordHash: string;
   displayName: string;
   avatarUrl: string;
+  role: "member" | "vip";
+  cinverseId: string;
   createdAt: Date;
   watchlist: Array<{
     movieId: string;
@@ -33,6 +35,8 @@ const userSchema = new Schema<IUser>(
     passwordHash: { type: String, required: true },
     displayName: { type: String, required: true, trim: true },
     avatarUrl: { type: String, default: "" },
+    role: { type: String, enum: ["member", "vip"], default: "member" },
+    cinverseId: { type: String, unique: true, sparse: true },
     watchlist: [
       {
         movieId: String,

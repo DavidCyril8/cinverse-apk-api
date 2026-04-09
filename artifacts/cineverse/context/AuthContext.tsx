@@ -17,6 +17,8 @@ export interface AuthUser {
   email: string;
   displayName: string;
   avatarUrl: string;
+  role: "member" | "vip";
+  cinverseId: string;
   createdAt: string;
 }
 
