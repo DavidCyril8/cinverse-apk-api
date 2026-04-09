@@ -4,6 +4,7 @@ import moviesRouter from "./movies.js";
 import authRouter from "./auth.js";
 import userRouter from "./user.js";
 import reviewsRouter from "./reviews.js";
+import adminRouter from "./admin.js";
 
 const router: IRouter = Router();
 
@@ -12,5 +13,6 @@ router.use(moviesRouter);
 router.use("/auth", authRouter);
 router.use("/user", userRouter);
 router.use("/reviews", reviewsRouter);
+router.use("/admin", adminRouter);
 
 export default router;
